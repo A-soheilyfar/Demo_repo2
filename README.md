@@ -12,13 +12,16 @@ This is a simple MicroPython project for controlling an LED connected to an ESP3
 
 ## 🔧 Hardware Requirements
 
-- ESP32 board  
-- 1x LED  
-- 1x Resistor (1kΩ is a good choice)  
-- Breadboard and jumper wires  
+- ESP32 board
+- 1x LED
+- 1x Resistor (1kΩ is a good choice)
+- Breadboard and jumper wires
 - MicroUSB cable
 
 ## ⚙️ Wiring
+
+ESP32 GPIO2 ---> Resistor ---> Anode of LED
+Cathode of LED ---> GND
 
 ## 🧠 How it works
 
@@ -40,3 +43,4 @@ This is a simple MicroPython project for controlling an LED connected to an ESP3
 <h2>Control LED with ESP32</h2>
 <p>LED STATUS: <strong>ON</strong></p>
 [Turn OFF] [Turn ON]
+```
